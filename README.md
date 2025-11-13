@@ -24,9 +24,10 @@ Admin job (almost always)
 Save time !!
 - download the SW sources directly to any custom, local folder on the client
 - --- do this only once
+- --- if you use the original sources from setup vendor  ( original MSI, Setup.exe )
 - Change your "Install.PS1 / .CMD"
 -   if 'Setup file' exists     -> immedeately start setup with paramters
--   if 'Setup file' os missing -> start download of 'Setup file' and finally start setup with paramters
+-   if 'Setup file' is missing -> start download of 'Setup file' and finally start setup with paramters
 
 Benefit:
   - IntuneWin package has only a size of some KiloBytes
