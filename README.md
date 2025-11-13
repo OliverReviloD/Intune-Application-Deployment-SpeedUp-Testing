@@ -8,10 +8,11 @@ Admin job (almost always)
 - install once on a test unit
 - Version 0.1
   - create your deployment script ( Install.PS1 / .CMD)
-  - create intuneWin package    - takes several time
-  - Upload to intune            - takes several time
+  - create IntuneWin package    - takes several time
+  - Upload to Intune            - takes several time
   - Deploy
   - Download on client PC       - takes several time
+  - run Install.PS1 / .CMD
   - Test
 - Version 0.2
   - ....
@@ -19,6 +20,8 @@ Admin job (almost always)
   - ...
 - Version 0.3
   - ....
+
+Every upload to Intune ( MS-Server ) and test download ( client PC ) takes ages :-(
  
  
 Save time !!
