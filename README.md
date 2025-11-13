@@ -4,7 +4,7 @@ Predownload huge vendor setups ( MSI, Setup.exe incl Data.Cab) to local disk
 Creating SW packages for Intune application ( Win32App ) deployments may become time consuming if you have to package huge INTUNEWIN files.
 
 Admin job (almost always)
-- download SW source
+- download SW source from SW vendor website  
 - install once on a test unit
 - Version 0.1
   - create your deployment script ( Install.PS1 / .CMD)
