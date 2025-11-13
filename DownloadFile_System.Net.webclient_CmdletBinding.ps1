@@ -51,6 +51,20 @@
         @Echo.
         @REM -------------------------------------------------
 
+        @REM ##########################################################
+        @REM #
+        Set DellApplication=Dell-Optimizer
+        @REM #
+        @REM ##########################################################
+        set DL_Link="https://dl.dell.com/FOLDER13529075M/3/Dell-Optimizer-Application_G3TR8_WIN64_6.2.1.0_A00.EXE"
+        set DL_Folder="C:\ProgramData\Dell\Downloaded_Installations\%DellApplication%"
+        set DL_File="Dell-Optimizer-Application_G3TR8_WIN64_6.2.1.0_A00.EXE"
+        PowerShell.exe -ExecutionPolicy ByPass -File C:\__B\PowerShell\DownloadFile_System.Net.webclient_CmdletBinding.ps1  -UriLink %DL_Link% -TargetFolder %DL_Folder% -TargetFile %DL_File%
+        @Echo.
+        @Echo  Download returned %errorlevel%
+        @Echo.
+        @REM -------------------------------------------------
+        
 
     #>
     
